@@ -13,6 +13,7 @@ docker-compose up --build -d
 echo "Waiting a few seconds for services to come up..."
 sleep 10
 
+echo "Listing the containers and its status"
 docker ps --format "table {{.Names}}\t{{.Status}}"
 
 # show endpoints
