@@ -34,23 +34,6 @@ project-root/
 
 ---
 
-# Quick Start
-
-Run the stack with a single command:
-
-```sh
-chmod +x start.sh
-./start.sh
-```
-
-The script will:
-
-- Start all containers via Docker Compose
-- Wait 10 seconds for services to initialize
-- Display container status and access URLs
-
----
-
 # Implementation
 
 ## 1. Application
@@ -77,20 +60,26 @@ The script will:
 
 ---
 
-# Project Proof
+# Quick start
 
-Start the stack:
+Run the stack with a single command:
 
 ```sh
+chmod +x start.sh
 ./start.sh
 ```
+
+The script will:
+
+- Start all containers via Docker Compose
+- Wait 10 seconds for services to initialize
+- Display container status and access URLs
 
 Trigger some app endpoints:
 
 ```sh
 curl http://localhost:3000/
 curl http://localhost:3000/health
-curl http://localhost:3000/slow
 ```
 
 - **Check logs in Kibana:**  
@@ -109,12 +98,12 @@ curl http://localhost:3000/slow
     Data source: Prometheus  
     Panels display request metrics.
 
+<img width="1823" height="1057" alt="image" src="https://github.com/user-attachments/assets/34d0b1f9-8787-40cc-ae13-1ddfd06d2d30" />
 <img width="466" height="331" alt="image" src="https://github.com/user-attachments/assets/93b21641-ba6b-41e6-a880-a5bcfca6ea9a" />
 <img width="704" height="256" alt="image" src="https://github.com/user-attachments/assets/28212053-9e6c-4437-9371-908dd6f8f8ac" />
 <img width="1917" height="795" alt="image" src="https://github.com/user-attachments/assets/452e1ecc-c4e4-4f6a-b9d1-b0db71b7e990" />
 <img width="1919" height="751" alt="image" src="https://github.com/user-attachments/assets/e4446992-f36e-439f-b001-8d79225e20cf" />
 <img width="1919" height="1133" alt="image" src="https://github.com/user-attachments/assets/16011090-311e-469d-8188-080c1d05bc05" />
-<img width="1919" height="1133" alt="image" src="https://github.com/user-attachments/assets/0d02a962-ceb9-42cb-b109-119749a76925" />
 
 ---
 
