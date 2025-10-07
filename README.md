@@ -109,6 +109,13 @@ curl http://localhost:3000/slow
     Data source: Prometheus  
     Panels display request metrics.
 
+<img width="466" height="331" alt="image" src="https://github.com/user-attachments/assets/93b21641-ba6b-41e6-a880-a5bcfca6ea9a" />
+<img width="704" height="256" alt="image" src="https://github.com/user-attachments/assets/28212053-9e6c-4437-9371-908dd6f8f8ac" />
+<img width="1917" height="795" alt="image" src="https://github.com/user-attachments/assets/452e1ecc-c4e4-4f6a-b9d1-b0db71b7e990" />
+<img width="1919" height="751" alt="image" src="https://github.com/user-attachments/assets/e4446992-f36e-439f-b001-8d79225e20cf" />
+<img width="1919" height="1133" alt="image" src="https://github.com/user-attachments/assets/16011090-311e-469d-8188-080c1d05bc05" />
+<img width="1919" height="1133" alt="image" src="https://github.com/user-attachments/assets/0d02a962-ceb9-42cb-b109-119749a76925" />
+
 ---
 
 # Stop the Stack
