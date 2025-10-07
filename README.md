@@ -123,4 +123,4 @@ This project demonstrates a complete, reproducible DevOps stack:
 - ELK for logging
 - Prometheus + Grafana for monitoring
 
-Everything runs locally with a single command and can be verified easily, making it ideal for evaluation or demonstration purposes.
+Everything runs locally with a single command and can be verified easily.
