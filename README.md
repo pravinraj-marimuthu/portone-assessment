@@ -120,7 +120,7 @@ docker-compose down
 This project demonstrates a complete, reproducible DevOps stack:
 
 - Containerized Node.js app
-- ELK for logging
+- EFK for logging
 - Prometheus + Grafana for monitoring
 
 Everything runs locally with a single command and can be verified easily.
