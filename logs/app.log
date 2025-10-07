@@ -1,0 +1,608 @@
+{"level":"info","message":{"event":"start","port":"3000"}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:25:36 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:25:49 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"event":"root","level":"info","message":"Root endpoint called"}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:25:56 +0000] \"GET / HTTP/1.1\" 200 50 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:25:57 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"event":"root","level":"info","message":"Root endpoint called"}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:00 +0000] \"GET / HTTP/1.1\" 200 50 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:00 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:26:04 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"event":"root","level":"info","message":"Root endpoint called"}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:08 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:09 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"event":"root","level":"info","message":"Root endpoint called"}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:09 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"event":"root","level":"info","message":"Root endpoint called"}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:09 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"event":"root","level":"info","message":"Root endpoint called"}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:10 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:10 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:10 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:10 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"event":"root","level":"info","message":"Root endpoint called"}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:10 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:10 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:26:17 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"event":"health","status":"ok"}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:29 +0000] \"GET /health HTTP/1.1\" 200 7 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:26:30 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/health\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:26:32 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:26:45 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:27:00 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:27:12 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:27:27 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:27:40 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:27:55 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:28:08 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:28:23 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:28:35 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:28:50 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:29:03 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:29:18 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:29:34 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:29:46 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:30:02 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:30:13 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:30:29 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:30:41 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:30:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:31:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:31:25 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:31:36 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:31:49 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:32:04 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:32:20 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:32:32 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:32:48 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:33:00 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:33:15 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:33:27 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:33:43 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:33:58 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:34:11 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:34:23 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:34:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:34:50 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:35:06 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:35:18 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:35:34 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:35:46 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:36:02 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"event":"root","level":"info","message":"Root endpoint called"}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:36:12 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:36:12 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:36:13 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"event":"health","status":"ok"}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:36:14 +0000] \"GET /health HTTP/1.1\" 200 7 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:36:14 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/health\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:36:29 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:36:41 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:36:57 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:37:12 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:37:25 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:37:40 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:37:55 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:38:10 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:38:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:38:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:38:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:39:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:39:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:39:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:39:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:40:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:40:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:40:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:40:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:41:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:41:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:41:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:41:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:42:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:42:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:42:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:42:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:43:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:43:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:43:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:43:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:44:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:44:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:44:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:44:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:45:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:45:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:45:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:45:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:46:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:46:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:46:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:46:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:47:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:47:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:47:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:47:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:48:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:48:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:48:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:48:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:49:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:49:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:49:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:49:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:50:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:50:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:50:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:50:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:51:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:51:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:51:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"event":"root","level":"info","message":"Root endpoint called"}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:51:53 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:51:53 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:51:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:52:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:52:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:52:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:52:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:53:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:53:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:53:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:53:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:54:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:54:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:54:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:54:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:55:09 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:55:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:55:36 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:55:51 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:56:06 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:56:21 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:56:36 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:56:51 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:57:06 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:57:21 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:57:36 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:57:51 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:58:05 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:58:20 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:58:32 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:58:47 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:59:00 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:59:15 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"event":"start","port":"3000"}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:59:28 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"event":"root","level":"info","message":"Root endpoint called"}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:59:37 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:59:37 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"event":"health","status":"ok"}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:05:59:38 +0000] \"GET /health HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:59:43 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:05:59:56 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:00:11 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:00:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:00:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:00:51 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:01:06 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:01:19 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:01:34 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:01:47 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:02:02 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:02:14 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:02:29 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:02:42 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:02:57 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:03:10 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:03:25 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:03:37 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:03:52 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:04:05 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:04:20 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:04:33 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:04:48 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:05:01 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:05:16 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:05:28 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:05:43 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:05:56 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:06:11 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:06:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:06:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:06:51 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:07:06 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:07:19 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:07:34 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:07:47 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:08:02 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:08:14 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:08:29 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:08:42 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:08:57 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:09:10 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:09:25 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:09:37 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:09:52 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:10:05 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:10:20 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:10:33 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:10:48 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:11:01 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:11:16 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:11:28 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:11:43 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:11:56 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:12:11 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:12:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:12:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:12:51 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:13:06 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:13:19 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:13:34 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:13:47 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:14:02 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:14:14 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:14:29 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:14:42 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:14:57 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:15:10 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:15:25 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:15:37 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:15:52 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:16:05 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:16:20 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:16:33 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:16:48 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:17:00 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:17:16 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:17:28 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:17:43 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:17:56 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:18:11 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:18:24 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:18:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:18:51 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:19:06 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:19:19 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:19:34 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:19:47 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:20:02 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:20:14 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:20:29 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"event":"start","port":"3000"}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:22:13 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:22:26 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:22:41 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:22:53 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:23:08 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:23:21 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:23:36 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:23:49 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:24:04 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:24:16 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:24:31 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:24:44 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:24:59 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:25:12 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"event":"root","level":"info","message":"Root endpoint called"}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:06:25:17 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:06:25:17 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"event":"health","status":"ok"}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.1 - - [07/Oct/2025:06:25:18 +0000] \"GET /health HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:25:27 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:25:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:25:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:26:07 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:26:22 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:26:35 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:26:50 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:27:02 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:27:17 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:27:30 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:27:45 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:27:58 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:28:13 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:28:26 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:28:41 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:28:53 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:29:08 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:29:21 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:29:36 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:29:49 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:30:04 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:30:16 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:30:31 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:30:44 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:30:59 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:31:12 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:31:27 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:31:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:31:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:32:07 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:32:22 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:32:35 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:32:50 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:33:02 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:33:17 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:33:30 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:33:45 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:33:58 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:34:13 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:34:25 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:34:40 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:34:53 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:35:08 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:35:21 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:35:36 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:35:49 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:36:04 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:36:16 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:36:31 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:36:44 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:36:59 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:37:12 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:37:27 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:37:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:37:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:38:07 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:38:22 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:38:35 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:38:50 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:39:02 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:39:17 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:39:30 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:39:45 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:39:58 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:40:13 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:40:25 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:40:40 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:40:53 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:41:08 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:41:21 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:41:36 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:41:49 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:42:04 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:42:16 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:42:31 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:42:44 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:42:59 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:43:12 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:43:27 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:43:39 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:43:54 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:44:07 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:44:22 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+{"level":"info","message":{"msg":"::ffff:172.18.0.3 - - [07/Oct/2025:06:44:35 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Prometheus/3.6.0\""}}
+App started on port 3000
+Root endpoint called
+::ffff:172.18.0.1 - - [07/Oct/2025:06:45:36 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+::ffff:172.18.0.1 - - [07/Oct/2025:06:45:36 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:45:38 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+Health endpoint called
+::ffff:172.18.0.1 - - [07/Oct/2025:06:45:39 +0000] "GET /health HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:45:53 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+Health endpoint called
+::ffff:172.18.0.1 - - [07/Oct/2025:06:45:53 +0000] "GET /health HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+Health endpoint called
+::ffff:172.18.0.1 - - [07/Oct/2025:06:45:53 +0000] "GET /health HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+Health endpoint called
+::ffff:172.18.0.1 - - [07/Oct/2025:06:45:55 +0000] "GET /health HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+Health endpoint called
+::ffff:172.18.0.1 - - [07/Oct/2025:06:45:52 +0000] "GET /health HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+Health endpoint called
+::ffff:172.18.0.1 - - [07/Oct/2025:06:45:52 +0000] "GET /health HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:46:05 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+Health endpoint called
+::ffff:172.18.0.1 - - [07/Oct/2025:06:46:11 +0000] "GET /health HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:46:20 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:46:33 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:46:48 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:47:01 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:47:16 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:47:28 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:47:43 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:47:56 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:48:11 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:48:24 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:48:39 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:48:52 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:49:07 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:49:19 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:49:34 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:49:47 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:50:02 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:50:15 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:50:30 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:50:42 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:50:57 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:51:10 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:51:25 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:51:38 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:51:53 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:52:05 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:52:20 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:52:33 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:52:48 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:53:01 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:53:16 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:53:28 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:53:43 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:53:56 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:54:11 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:54:24 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:54:39 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:54:52 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:55:07 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:55:19 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:55:34 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:55:47 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:56:02 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:56:15 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:56:30 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:56:42 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:56:57 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:57:10 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:57:25 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:57:38 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:57:53 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:58:05 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:58:20 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:58:33 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:58:48 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:59:01 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:59:16 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:59:28 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:59:43 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:06:59:56 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:00:11 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:00:24 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:00:39 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:00:51 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:01:07 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:01:19 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:01:34 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:01:47 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:02:02 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:02:15 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:02:30 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:02:42 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:02:57 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:03:10 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:03:25 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:03:38 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:03:53 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:04:05 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:04:20 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:04:33 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:04:48 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:05:01 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:05:16 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:05:28 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:05:43 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:05:56 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:06:11 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:06:24 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:06:39 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:06:51 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:07:06 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:07:19 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:07:34 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:07:47 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:08:02 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:08:15 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:08:30 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:08:42 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:08:57 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:09:10 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:09:25 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:09:38 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:09:53 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:10:05 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:10:20 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:10:33 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:10:48 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:11:01 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:11:16 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:11:28 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:11:43 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:11:56 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:12:11 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:12:24 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:12:39 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:12:51 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:13:06 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:13:19 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:13:34 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:13:47 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:14:02 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:14:14 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:14:29 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:14:42 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:14:57 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:15:10 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:15:25 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:15:38 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:15:53 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:16:05 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:16:20 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:16:33 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:16:48 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:17:01 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:17:16 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:17:28 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:17:43 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:17:56 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:18:11 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:18:24 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:18:39 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:18:51 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:19:06 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:19:19 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:19:34 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:19:47 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:20:02 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:20:14 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:20:29 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:20:42 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:20:57 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:21:10 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:21:25 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:21:38 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:21:53 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:22:05 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:22:20 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:22:33 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:22:48 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:23:01 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:23:15 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:23:28 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:23:43 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:23:56 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:24:11 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:24:24 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:24:39 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:24:51 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:25:06 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:25:19 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:25:34 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:25:47 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:26:02 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:26:14 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:26:29 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:26:42 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+Slow endpoint responded
+::ffff:172.18.0.1 - - [07/Oct/2025:07:26:53 +0000] "GET /slow HTTP/1.1" 200 13 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+::ffff:172.18.0.1 - - [07/Oct/2025:07:26:53 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/slow" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:26:57 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:27:10 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:27:25 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:27:37 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:27:52 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:28:05 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:28:20 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:28:33 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:28:48 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:29:01 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:29:15 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:29:28 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:29:43 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:29:56 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:30:11 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:30:24 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:30:39 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:30:51 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:31:06 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:31:19 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:31:34 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:31:47 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:32:02 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:32:14 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:32:29 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:32:42 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:32:57 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:33:10 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:33:25 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:33:37 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:33:52 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"
+::ffff:172.18.0.3 - - [07/Oct/2025:07:34:05 +0000] "GET /metrics HTTP/1.1" 200 - "-" "Prometheus/3.6.0"

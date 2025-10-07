@@ -1,0 +1,22 @@
+{
+"annotations": {"list": []},
+"panels": [
+    {
+    "datasource": "Prometheus",
+    "type": "graph",
+    "title": "HTTP Requests Total",
+    "targets": [{"expr": "sum(rate(http_requests_total[1m])) by (route)", "refId": "A"}],
+    "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+    },
+    {
+    "datasource": "Prometheus",
+    "type": "graph",
+    "title": "Request Duration (histogram summary)",
+    "targets": [{"expr": "histogram_quantile(0.95, sum(rate(request_duration_seconds_bucket[1m])) by (le))","refId": "B"}],
+    "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}
+    }
+  ],
+  "schemaVersion": 16,
+  "title": "Local App Dashboard",
+  "version": 1
+}
